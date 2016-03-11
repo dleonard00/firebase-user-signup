@@ -1,0 +1,997 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012A7E018F3D34F159894EBD7EACACF9 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0307D2A86B6780D5D6DBFA34E7018D80 /* Empty.m */; };
+		036D6070F1C809A1BC6738C52C827D34 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE720A15907512587184639E3E10056 /* MenuView.swift */; };
+		09C82839354603A46715889A1A478152 /* FabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69975409C1C552A335D572372A658E27 /* FabButton.swift */; };
+		0DDD1FB609C947D9E94DB15B754EAE79 /* Material+UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20BD57E9C7B1858D3B8EF6136F0454 /* Material+UIImage+Size.swift */; };
+		141732172A32A45D318CE1BD592F1DF5 /* Material+UIImage+PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979328210F06302D7FCB838FB7BBEBB9 /* Material+UIImage+PhotoLibrary.swift */; };
+		141F98E84B6BAAF789F458744C32491E /* CaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C99E24CA72A3FEB0A67A448A9FE142 /* CaptureSession.swift */; };
+		16F77D0E7CF1D6A7471F4DF2BC936834 /* MaterialPulseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41597C6CB7F961555ED021B434DB23DE /* MaterialPulseCollectionViewCell.swift */; };
+		18928F8C7B6436EF7561B38F39356774 /* CapturePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7904A75B65A9494B26C0FFF729EF8D /* CapturePreviewView.swift */; };
+		191DE2EB9A35585AE0A88BA9F833A1F4 /* FTransactionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = D249EBB04E43A433CCEABA5E178A17E7 /* FTransactionResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C04A7CD5B70C4561F6D98C882731C65 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6204446BD9150A17B12E81B4A6F9CA8 /* Security.framework */; };
+		1C3EF85CD30E6FF2E51471BD5B3CEB29 /* Firebase.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC33C16C60366942D74C7047BF01E4C /* Firebase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D925BB011B04DDED982C7946571A67A /* FAuthType.h in Headers */ = {isa = PBXBuildFile; fileRef = C683CDB29B98CA6A6DDE090FEA1E453D /* FAuthType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D9D7FF5237C8CC91EF58DC45AC274FB /* Firebase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBECC2687924B0FD7D65CA716745D31 /* Firebase-dummy.m */; };
+		1EBE51236C1D219BF2EFE44F968ED877 /* MaterialTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665FB1A903744ABCA07B6F0052FB3BD1 /* MaterialTransitionAnimation.swift */; };
+		1F95E4E11EE9C69E0B8FABA9F46F017E /* Material+UIImage+Blank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ED3366B52EBCC01CC4D953516935C0 /* Material+UIImage+Blank.swift */; };
+		2052D8E483B84C043565829345A05C35 /* MaterialCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16089419A15391044E85DBF148A5A949 /* MaterialCollectionView.swift */; };
+		20A5958F2B94D6DE18B898ABF90558E2 /* Material+UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02F86FEAE1B1CA83E42C0B9C9A374FB /* Material+UIImage+Color.swift */; };
+		20F992CC069BD47F212CBBC0C497B0FC /* TextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F01B50EE8305F20061FB4F72106810 /* TextStorage.swift */; };
+		239B10F388840841389B7F09648735B1 /* FEventType.h in Headers */ = {isa = PBXBuildFile; fileRef = C61D0C56412F9D2F04B16E74A7690834 /* FEventType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		248C79D1F018F41FA912DB57F3EF363E /* Pods-firebase-user-signup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42B731830AA019EAF2AC31C2714C8518 /* Pods-firebase-user-signup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27520904753EDA6C0CE81C3D46C9C37F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FF9B579B272A96E148DC0941590495 /* MenuViewController.swift */; };
+		288835CFF80ADE0010A4E1436D772230 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891190A96FD71E470B27C544EBC18824 /* MaterialButton.swift */; };
+		29043037B7733D59876B3CFA6AF64828 /* MaterialLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7919C480AC277E0DAB77285284FD0 /* MaterialLayer.swift */; };
+		2F1496011DBBB75777645194AAAFE92D /* FirebaseApp.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC36FD5330FEE88855481794E1BEB58 /* FirebaseApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31A1BB80CE5181F096C2D7FA9F160470 /* Material+UIImage+Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B326BD32C53DB2E1C598F3CEAF40C0 /* Material+UIImage+Crop.swift */; };
+		3912236D63F8ED0D146D5620EBE8F04F /* MaterialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353453E71E96686603D9E53C83D5E415 /* MaterialCollectionViewCell.swift */; };
+		3DDB25D6357DB92F5A34B7D9E8F1667C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD973EA35BC0A04D0072F865FD300DF /* NavigationController.swift */; };
+		3E1CA57169BA2488AB43D07A2B30F152 /* NavigationBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EAAB71B4738FF20BEA9C220143D6C2 /* NavigationBarViewController.swift */; };
+		40E13501D6B82470BAF7378157AE4079 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765711536A5FE778849065EB82AEFB85 /* Menu.swift */; };
+		434E57E3E1F13E54FD8BA4ADF615C7F0 /* MaterialFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495A9C9B19243F4140237DB0F1D3A68E /* MaterialFont.swift */; };
+		48D9D7A9C3C4A472CF75044B793C90DC /* Material+UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0956089D07E81DF8FEA7AFE1CA7A72A /* Material+UIFont.swift */; };
+		4B0EFAAA29109D9A705A27EFFA10FAE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C49D928448B31FB9A7D5AE5C8D6C4E /* Foundation.framework */; };
+		4C0F443171592949160E2B718E598805 /* MaterialBasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1422F878080E1865A13F364295EF98A6 /* MaterialBasicAnimation.swift */; };
+		4D75CF0089B20355B17A851513C4A002 /* FQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = B2091ED8B3C3A5A9965436035FB83213 /* FQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E4E7B49F9763378C80FF5DE1BE7AC5E /* MaterialAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9B53118FF9C18BABF91B6A644050EB /* MaterialAnimation.swift */; };
+		507A88A594FDF11FA402EEFE7A5724F4 /* StatusBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF6ADB7EFB7B99C194DBB5F38D21A10 /* StatusBarViewController.swift */; };
+		5105168534F5E1F3E2FBF1F9403D4985 /* MaterialCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FF5DB4A01ECCA29CCCFD314807F73A /* MaterialCollectionViewDataSource.swift */; };
+		5640BC42AF157E5D6EB51E7EAC59789D /* Material-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CA69224AC18BB3D228F77692C6910E /* Material-dummy.m */; };
+		5712A85595BABB1875CCB085B727ECE8 /* MaterialLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BA5AA868F5F4760806DFB393B44F30 /* MaterialLabel.swift */; };
+		57C503D37014357010AA8D3D04EE133E /* MaterialBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F0E8F7C78A5F48051B5890655E0EC9 /* MaterialBorder.swift */; };
+		589F90FD2D61469B4862F331CE0A9C52 /* MaterialDataSourceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2865D42BB02189C212ACE8C88260E9F2 /* MaterialDataSourceItem.swift */; };
+		58AE7957DF2483B3BA166D094BB97C7A /* MaterialShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C0140940708E4A4BA9385839C54BB2 /* MaterialShape.swift */; };
+		5948F868B00843D9BE2915F98A5BB734 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A3012C48C70BC2D19F6D924749EA05 /* NavigationBar.swift */; };
+		60485CFD4EEF7EF79762C11C9FCA94F2 /* MaterialKeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FFDA031E12A04D6BE68813DCE42921 /* MaterialKeyframeAnimation.swift */; };
+		60F9139BDD38565B78214C4FC5F5729D /* Firebase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DB7C64C62024B3C5AC04053C37E0195 /* Firebase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D8AC55CA230A13D28A28E5A9981DA5 /* Material+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC715C7191F8C42A0D3B384308887C /* Material+UIImage.swift */; };
+		62323DBCAAA85F28765962FEC01AA944 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD688CBA7F5A0B63D4E5CC515DCF66C /* Text.swift */; };
+		6330CA0301F6A104CCC80F280E3A530E /* MaterialCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F8998500A6B7C3FB135331614A50E1 /* MaterialCollectionViewDelegate.swift */; };
+		6646DA26298257396C7FFE141BB84CC3 /* FirebaseServerValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 925871CF8E3325706CCFF0A0FFCA1704 /* FirebaseServerValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67AC0FD4762630B14321707DFDEBA546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C49D928448B31FB9A7D5AE5C8D6C4E /* Foundation.framework */; };
+		68A8BB3DC3A90908BE77CAFDD02A06E6 /* Material-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59291043C0FE5D78672385AADC44DF2B /* Material-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E5EA7E22FC631CC0EBDEB551B1376B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C49D928448B31FB9A7D5AE5C8D6C4E /* Foundation.framework */; };
+		7E307BE02913D982E102CCD2D87E5146 /* MaterialDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325573A8227A8330E40E8180B2C6F6FB /* MaterialDepth.swift */; };
+		82F446E59D5AB01A85CAD9369A606A80 /* Material+UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D3F3FA4F1091E4076AB07448F083A5 /* Material+UIImage+Resize.swift */; };
+		86FA356C8BE8D5779A554D00A298DBCB /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6998EF2FEB9D2EEF1F2F3940FB6C99 /* SearchBarViewController.swift */; };
+		8ED5697FD5A561B4E70A0DCBC4A083B3 /* ImageCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C3547D4C5001B35A6DFBA870BB8AEA /* ImageCardView.swift */; };
+		9083EAF89942F376BB2F648317E4E32A /* MaterialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86150A88542F5599BF3472903A3152C8 /* MaterialTableViewCell.swift */; };
+		909CA8BACF7F797BCF0739A32C5C0397 /* MaterialLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29184CFC9ADC5081307B7EE568253691 /* MaterialLayout.swift */; };
+		916F2E8AA14F1EBE23540B9181E640E6 /* MaterialSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6174770DCE7BC7C6CC78A2044D60F13B /* MaterialSwitch.swift */; };
+		92CEEC98DC234AB8DC785D1CD684E1DC /* MaterialCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7934EF3E0EA06CDD8D5AFE097805E10 /* MaterialCollectionViewLayout.swift */; };
+		94C79427FE2BAB99905E324F7F2F72D8 /* MaterialRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032CC987BC0E15533F0B678643E4291D /* MaterialRadius.swift */; };
+		95ED541B3B188F1E97D87053C5CE854E /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB5DBB96C0C9F5FBC286AF7D149B99B /* MaterialView.swift */; };
+		98006A503DBE114FC9D8F34C6CCA3115 /* RaisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F13A5A760C7FA3234741A3C87AF104 /* RaisedButton.swift */; };
+		9AA3B741C267B4102A3ABB6A1DFD53CD /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4085CE2C07683937F6BE367CC94943E /* FlatButton.swift */; };
+		A208068D65C2A9ED8C2AFD9C6E22F38E /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399FC95A8EC9A3EB80F552D990F5EB19 /* TextField.swift */; };
+		A638D2F90E0459560D016C146CFB8DAB /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E4FB4E7B681AF026B2682C0C212195 /* StatusBarView.swift */; };
+		A84FDBDCDC65A131626C281AD146F26B /* MaterialDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49C406DEBC3C740B81EB17789D07E8 /* MaterialDevice.swift */; };
+		B160DFC3D99A07CBC4D81453DB449914 /* Material+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD561246E365360326D4ABB2FF73D8 /* Material+String.swift */; };
+		B7C014371DAC21DB66BF34F09B510E44 /* Material+UIImage+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D606E7B4A1D90151C8A6E2DF766A233 /* Material+UIImage+Network.swift */; };
+		B8A77897941B61040653DC8DDE3C0FE2 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BFFC645C6C10124EC577C29C7756B9 /* Grid.swift */; };
+		B9F0BAD5FAAAE43361655881A4468ADA /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545E588965171F3003A761EE82A1A262 /* TextView.swift */; };
+		C1503F1709994AD487BF6284ADDE1980 /* MaterialSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F1E9BBB53872C56CC392A50DBAB0C0 /* MaterialSpacing.swift */; };
+		C23FCF31260D47CEC1494A292DAA1A1E /* FAuthData.h in Headers */ = {isa = PBXBuildFile; fileRef = 710E6B17898707B66C34568E23A783E2 /* FAuthData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C33FB72442942769080237385C9051BA /* SideNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7F8D581CB4CD397DBBED6B19A56A70 /* SideNavigationViewController.swift */; };
+		CA33C682190D246FD0972E184176859B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BF3D811AFBF744BA1CBC7AF41EC397 /* CardView.swift */; };
+		CDFDFACEF69C93B390A5A29BCD2303BC /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3657739D81347AD3A21B1B29FFD4DB /* SearchBarView.swift */; };
+		DB05A9DD8244D10C28B6915C514AE15F /* FMutableData.h in Headers */ = {isa = PBXBuildFile; fileRef = DCFF96AE46394467EE472BFBC50930E3 /* FMutableData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A883FEBDEED9B85D90D6BE2080F218 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6166BE40C18BC6BF0EED92CAB212EC33 /* SystemConfiguration.framework */; };
+		E391644D82FD6AFAE43A9B1051F9E19E /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B3C81B7539918BB6B648EB6EB9A912 /* CaptureView.swift */; };
+		E3FBB5B462A14E8ACC9B340227DE4BE1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F85758B54CB0D843A3E97DFFB2F21F /* CFNetwork.framework */; };
+		E60FA42EEC3ECC48701DB55986D25D69 /* FConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = AC254F2905E74EA7606EA89B872F0427 /* FConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E75C42D3822280F6AA444F66A3A784B9 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5293807C7D19B9535A48851A0CCFD045 /* NavigationBarView.swift */; };
+		E8B534D15D2B25919ACD898217266891 /* FDataSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E4402F2EA9206E546E5F756789F6A87 /* FDataSnapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA5F74BFE07679AECA562C28ED113A0B /* MaterialTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C936CDEB050FC94F60B6297A8958F452 /* MaterialTextLayer.swift */; };
+		EC70AB4189691658A1A9EE080B34CBC9 /* Material+Obj-C.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0EB6A95546AE4A7BA1A7A008DCF426 /* Material+Obj-C.swift */; };
+		F0055E2044BB382BA4C28108BD8AFA54 /* MaterialIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A23CF283A25576DDAF62F3C594D29D6 /* MaterialIcon.swift */; };
+		F53345242A0FC676A5701FE5D3F96CA5 /* MaterialPulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69249279FC5EB0D2F1257F0CB6879403 /* MaterialPulseView.swift */; };
+		F67B5D166205D1CB900C2F9D8E4DE7D2 /* Pods-firebase-user-signup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 437AEF16D199584A1B30E09D1FAC2A17 /* Pods-firebase-user-signup-dummy.m */; };
+		F6B6B2779D5C68A8354892F106F7FEA5 /* RobotoFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A4D1C1CD6A0D4762985D4F81FB232 /* RobotoFont.swift */; };
+		F9F0F91A3396797F21639ED24BF79FC0 /* MaterialEdgeInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437D681253703C761FBB088CD85ABBBA /* MaterialEdgeInset.swift */; };
+		F9FCBA6D9B41834C0961E68758F916D4 /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B305FB1D88813F3A1C2B5C996746E34 /* ControlView.swift */; };
+		FA60259DCE1FF8CE0443CD0C3B896095 /* MaterialColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A819803E569A40D42440C6969AF9CE2 /* MaterialColor.swift */; };
+		FD7969742F6118D79D56A64C9732962B /* MaterialGravity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DF0A873659CA7845618E1A53BC4443 /* MaterialGravity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7903D8DAB774F0C7E9A1067BEF344DBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D29E8C2A60D3BB04FB162A6A5817AD6;
+			remoteInfo = Material;
+		};
+		D958B35A10E8C8E4C1F1E064E0BB9EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7AC9326D819482593FE118E915409D7;
+			remoteInfo = Firebase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01F426F3AEC87BD477A639A8A07728C3 /* Pods-firebase-user-signup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-firebase-user-signup.release.xcconfig"; sourceTree = "<group>"; };
+		0307D2A86B6780D5D6DBFA34E7018D80 /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Empty.m; sourceTree = "<group>"; };
+		032CC987BC0E15533F0B678643E4291D /* MaterialRadius.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialRadius.swift; path = Sources/MaterialRadius.swift; sourceTree = "<group>"; };
+		04CC7EF3EF6A88B19BB7633D812AA397 /* Pods-firebase-user-signup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-firebase-user-signup.debug.xcconfig"; sourceTree = "<group>"; };
+		09CA69224AC18BB3D228F77692C6910E /* Material-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Material-dummy.m"; sourceTree = "<group>"; };
+		0AA7919C480AC277E0DAB77285284FD0 /* MaterialLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialLayer.swift; path = Sources/MaterialLayer.swift; sourceTree = "<group>"; };
+		0F0EB6A95546AE4A7BA1A7A008DCF426 /* Material+Obj-C.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+Obj-C.swift"; path = "Sources/Material+Obj-C.swift"; sourceTree = "<group>"; };
+		12E4FB4E7B681AF026B2682C0C212195 /* StatusBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatusBarView.swift; path = Sources/StatusBarView.swift; sourceTree = "<group>"; };
+		1422F878080E1865A13F364295EF98A6 /* MaterialBasicAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialBasicAnimation.swift; path = Sources/MaterialBasicAnimation.swift; sourceTree = "<group>"; };
+		16089419A15391044E85DBF148A5A949 /* MaterialCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialCollectionView.swift; path = Sources/MaterialCollectionView.swift; sourceTree = "<group>"; };
+		17BFFC645C6C10124EC577C29C7756B9 /* Grid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Grid.swift; path = Sources/Grid.swift; sourceTree = "<group>"; };
+		1913199D9DD1DF0E6321DF58875314C9 /* libFirebaseStatic.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libFirebaseStatic.a; sourceTree = "<group>"; };
+		1DB7C64C62024B3C5AC04053C37E0195 /* Firebase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Firebase-umbrella.h"; sourceTree = "<group>"; };
+		20F01B50EE8305F20061FB4F72106810 /* TextStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextStorage.swift; path = Sources/TextStorage.swift; sourceTree = "<group>"; };
+		2865D42BB02189C212ACE8C88260E9F2 /* MaterialDataSourceItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialDataSourceItem.swift; path = Sources/MaterialDataSourceItem.swift; sourceTree = "<group>"; };
+		28ED3366B52EBCC01CC4D953516935C0 /* Material+UIImage+Blank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+UIImage+Blank.swift"; path = "Sources/Material+UIImage+Blank.swift"; sourceTree = "<group>"; };
+		29184CFC9ADC5081307B7EE568253691 /* MaterialLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialLayout.swift; path = Sources/MaterialLayout.swift; sourceTree = "<group>"; };
+		30C0140940708E4A4BA9385839C54BB2 /* MaterialShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialShape.swift; path = Sources/MaterialShape.swift; sourceTree = "<group>"; };
+		325573A8227A8330E40E8180B2C6F6FB /* MaterialDepth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialDepth.swift; path = Sources/MaterialDepth.swift; sourceTree = "<group>"; };
+		353453E71E96686603D9E53C83D5E415 /* MaterialCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialCollectionViewCell.swift; path = Sources/MaterialCollectionViewCell.swift; sourceTree = "<group>"; };
+		35757E7CF82180AEE6391CCC14A506B2 /* Pods-firebase-user-signup-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-firebase-user-signup-frameworks.sh"; sourceTree = "<group>"; };
+		367A63F1CDDC591FF2D9CDC599DF2134 /* Pods-firebase-user-signup-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-firebase-user-signup-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36E16148903F300342FA186D8F68735B /* Material.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Material.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		399FC95A8EC9A3EB80F552D990F5EB19 /* TextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextField.swift; path = Sources/TextField.swift; sourceTree = "<group>"; };
+		3A819803E569A40D42440C6969AF9CE2 /* MaterialColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialColor.swift; path = Sources/MaterialColor.swift; sourceTree = "<group>"; };
+		3C1DF32513E8DB55F14B12BBEAB894B1 /* Pods-firebase-user-signup-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-firebase-user-signup-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C20BD57E9C7B1858D3B8EF6136F0454 /* Material+UIImage+Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+UIImage+Size.swift"; path = "Sources/Material+UIImage+Size.swift"; sourceTree = "<group>"; };
+		3DF6ADB7EFB7B99C194DBB5F38D21A10 /* StatusBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatusBarViewController.swift; path = Sources/StatusBarViewController.swift; sourceTree = "<group>"; };
+		3ECC715C7191F8C42A0D3B384308887C /* Material+UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+UIImage.swift"; path = "Sources/Material+UIImage.swift"; sourceTree = "<group>"; };
+		41597C6CB7F961555ED021B434DB23DE /* MaterialPulseCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialPulseCollectionViewCell.swift; path = Sources/MaterialPulseCollectionViewCell.swift; sourceTree = "<group>"; };
+		41FF9B579B272A96E148DC0941590495 /* MenuViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = Sources/MenuViewController.swift; sourceTree = "<group>"; };
+		42B731830AA019EAF2AC31C2714C8518 /* Pods-firebase-user-signup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-firebase-user-signup-umbrella.h"; sourceTree = "<group>"; };
+		437AEF16D199584A1B30E09D1FAC2A17 /* Pods-firebase-user-signup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-firebase-user-signup-dummy.m"; sourceTree = "<group>"; };
+		437D681253703C761FBB088CD85ABBBA /* MaterialEdgeInset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialEdgeInset.swift; path = Sources/MaterialEdgeInset.swift; sourceTree = "<group>"; };
+		48FFDA031E12A04D6BE68813DCE42921 /* MaterialKeyframeAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialKeyframeAnimation.swift; path = Sources/MaterialKeyframeAnimation.swift; sourceTree = "<group>"; };
+		495A9C9B19243F4140237DB0F1D3A68E /* MaterialFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialFont.swift; path = Sources/MaterialFont.swift; sourceTree = "<group>"; };
+		4A23CF283A25576DDAF62F3C594D29D6 /* MaterialIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialIcon.swift; path = Sources/MaterialIcon.swift; sourceTree = "<group>"; };
+		4A49C406DEBC3C740B81EB17789D07E8 /* MaterialDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialDevice.swift; path = Sources/MaterialDevice.swift; sourceTree = "<group>"; };
+		4ADD561246E365360326D4ABB2FF73D8 /* Material+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+String.swift"; path = "Sources/Material+String.swift"; sourceTree = "<group>"; };
+		4BD688CBA7F5A0B63D4E5CC515DCF66C /* Text.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Text.swift; path = Sources/Text.swift; sourceTree = "<group>"; };
+		4CD973EA35BC0A04D0072F865FD300DF /* NavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = Sources/NavigationController.swift; sourceTree = "<group>"; };
+		51D3F3FA4F1091E4076AB07448F083A5 /* Material+UIImage+Resize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+UIImage+Resize.swift"; path = "Sources/Material+UIImage+Resize.swift"; sourceTree = "<group>"; };
+		5293807C7D19B9535A48851A0CCFD045 /* NavigationBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationBarView.swift; path = Sources/NavigationBarView.swift; sourceTree = "<group>"; };
+		545E588965171F3003A761EE82A1A262 /* TextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = Sources/TextView.swift; sourceTree = "<group>"; };
+		54B3C81B7539918BB6B648EB6EB9A912 /* CaptureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureView.swift; path = Sources/CaptureView.swift; sourceTree = "<group>"; };
+		59291043C0FE5D78672385AADC44DF2B /* Material-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Material-umbrella.h"; sourceTree = "<group>"; };
+		5CBECC2687924B0FD7D65CA716745D31 /* Firebase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Firebase-dummy.m"; sourceTree = "<group>"; };
+		5E4402F2EA9206E546E5F756789F6A87 /* FDataSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FDataSnapshot.h; sourceTree = "<group>"; };
+		60F85758B54CB0D843A3E97DFFB2F21F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		6166BE40C18BC6BF0EED92CAB212EC33 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		6174770DCE7BC7C6CC78A2044D60F13B /* MaterialSwitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialSwitch.swift; path = Sources/MaterialSwitch.swift; sourceTree = "<group>"; };
+		665FB1A903744ABCA07B6F0052FB3BD1 /* MaterialTransitionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialTransitionAnimation.swift; path = Sources/MaterialTransitionAnimation.swift; sourceTree = "<group>"; };
+		69249279FC5EB0D2F1257F0CB6879403 /* MaterialPulseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialPulseView.swift; path = Sources/MaterialPulseView.swift; sourceTree = "<group>"; };
+		69975409C1C552A335D572372A658E27 /* FabButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FabButton.swift; path = Sources/FabButton.swift; sourceTree = "<group>"; };
+		710E6B17898707B66C34568E23A783E2 /* FAuthData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAuthData.h; sourceTree = "<group>"; };
+		716A4D1C1CD6A0D4762985D4F81FB232 /* RobotoFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RobotoFont.swift; path = Sources/RobotoFont.swift; sourceTree = "<group>"; };
+		726A17439786BC6DEDC72C56181646EE /* Pods-firebase-user-signup-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-firebase-user-signup-resources.sh"; sourceTree = "<group>"; };
+		72B326BD32C53DB2E1C598F3CEAF40C0 /* Material+UIImage+Crop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+UIImage+Crop.swift"; path = "Sources/Material+UIImage+Crop.swift"; sourceTree = "<group>"; };
+		72BF3D811AFBF744BA1CBC7AF41EC397 /* CardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = Sources/CardView.swift; sourceTree = "<group>"; };
+		73C99E24CA72A3FEB0A67A448A9FE142 /* CaptureSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureSession.swift; path = Sources/CaptureSession.swift; sourceTree = "<group>"; };
+		765711536A5FE778849065EB82AEFB85 /* Menu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = Sources/Menu.swift; sourceTree = "<group>"; };
+		77C49D928448B31FB9A7D5AE5C8D6C4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7AC5C25A677821872ADCAD78F01ABDC3 /* Firebase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Firebase-prefix.pch"; sourceTree = "<group>"; };
+		7B305FB1D88813F3A1C2B5C996746E34 /* ControlView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlView.swift; path = Sources/ControlView.swift; sourceTree = "<group>"; };
+		7D606E7B4A1D90151C8A6E2DF766A233 /* Material+UIImage+Network.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+UIImage+Network.swift"; path = "Sources/Material+UIImage+Network.swift"; sourceTree = "<group>"; };
+		847D4243B2128C44BAC39B5E6C2DD3BC /* Material-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Material-prefix.pch"; sourceTree = "<group>"; };
+		86150A88542F5599BF3472903A3152C8 /* MaterialTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialTableViewCell.swift; path = Sources/MaterialTableViewCell.swift; sourceTree = "<group>"; };
+		86A3012C48C70BC2D19F6D924749EA05 /* NavigationBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationBar.swift; path = Sources/NavigationBar.swift; sourceTree = "<group>"; };
+		87BA5AA868F5F4760806DFB393B44F30 /* MaterialLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialLabel.swift; path = Sources/MaterialLabel.swift; sourceTree = "<group>"; };
+		891190A96FD71E470B27C544EBC18824 /* MaterialButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialButton.swift; path = Sources/MaterialButton.swift; sourceTree = "<group>"; };
+		8A7F8D581CB4CD397DBBED6B19A56A70 /* SideNavigationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideNavigationViewController.swift; path = Sources/SideNavigationViewController.swift; sourceTree = "<group>"; };
+		8C9B53118FF9C18BABF91B6A644050EB /* MaterialAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialAnimation.swift; path = Sources/MaterialAnimation.swift; sourceTree = "<group>"; };
+		91F13A5A760C7FA3234741A3C87AF104 /* RaisedButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisedButton.swift; path = Sources/RaisedButton.swift; sourceTree = "<group>"; };
+		925871CF8E3325706CCFF0A0FFCA1704 /* FirebaseServerValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FirebaseServerValue.h; sourceTree = "<group>"; };
+		979328210F06302D7FCB838FB7BBEBB9 /* Material+UIImage+PhotoLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+UIImage+PhotoLibrary.swift"; path = "Sources/Material+UIImage+PhotoLibrary.swift"; sourceTree = "<group>"; };
+		98F0E8F7C78A5F48051B5890655E0EC9 /* MaterialBorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialBorder.swift; path = Sources/MaterialBorder.swift; sourceTree = "<group>"; };
+		99EAAB71B4738FF20BEA9C220143D6C2 /* NavigationBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationBarViewController.swift; path = Sources/NavigationBarViewController.swift; sourceTree = "<group>"; };
+		9BB31CD0B17C090393EDBE45A3AD565D /* Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB9C2050646CE094CAE3162B23B990B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0956089D07E81DF8FEA7AFE1CA7A72A /* Material+UIFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+UIFont.swift"; path = "Sources/Material+UIFont.swift"; sourceTree = "<group>"; };
+		A5E5E4EDC9515F090BBAE116099BEE01 /* Material.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Material.modulemap; sourceTree = "<group>"; };
+		A9F8998500A6B7C3FB135331614A50E1 /* MaterialCollectionViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialCollectionViewDelegate.swift; path = Sources/MaterialCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		AC05D67D3ED3B33BECD9E1BB8AFC10FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC254F2905E74EA7606EA89B872F0427 /* FConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FConfig.h; sourceTree = "<group>"; };
+		B2091ED8B3C3A5A9965436035FB83213 /* FQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FQuery.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BEE1E679C33D9E60106FD6C0712568AB /* Firebase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Firebase.xcconfig; sourceTree = "<group>"; };
+		C61D0C56412F9D2F04B16E74A7690834 /* FEventType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEventType.h; sourceTree = "<group>"; };
+		C6204446BD9150A17B12E81B4A6F9CA8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		C683CDB29B98CA6A6DDE090FEA1E453D /* FAuthType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAuthType.h; sourceTree = "<group>"; };
+		C6F1E9BBB53872C56CC392A50DBAB0C0 /* MaterialSpacing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialSpacing.swift; path = Sources/MaterialSpacing.swift; sourceTree = "<group>"; };
+		C936CDEB050FC94F60B6297A8958F452 /* MaterialTextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialTextLayer.swift; path = Sources/MaterialTextLayer.swift; sourceTree = "<group>"; };
+		CF4D509A0D435465C199FF9386EF4979 /* Material.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Material.xcconfig; sourceTree = "<group>"; };
+		D249EBB04E43A433CCEABA5E178A17E7 /* FTransactionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTransactionResult.h; sourceTree = "<group>"; };
+		D2D45EE85D788B491438B617B7BEF749 /* Pods_firebase_user_signup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebase_user_signup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4085CE2C07683937F6BE367CC94943E /* FlatButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FlatButton.swift; path = Sources/FlatButton.swift; sourceTree = "<group>"; };
+		DCFF96AE46394467EE472BFBC50930E3 /* FMutableData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMutableData.h; sourceTree = "<group>"; };
+		DD3657739D81347AD3A21B1B29FFD4DB /* SearchBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchBarView.swift; path = Sources/SearchBarView.swift; sourceTree = "<group>"; };
+		DF7904A75B65A9494B26C0FFF729EF8D /* CapturePreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CapturePreviewView.swift; path = Sources/CapturePreviewView.swift; sourceTree = "<group>"; };
+		DFE720A15907512587184639E3E10056 /* MenuView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = Sources/MenuView.swift; sourceTree = "<group>"; };
+		DFE823A4F64EEE094D7BD76B3BA63AC6 /* Firebase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Firebase.modulemap; sourceTree = "<group>"; };
+		E01286DED64596FFB4B228F60945448C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FF5DB4A01ECCA29CCCFD314807F73A /* MaterialCollectionViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialCollectionViewDataSource.swift; path = Sources/MaterialCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		E7934EF3E0EA06CDD8D5AFE097805E10 /* MaterialCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialCollectionViewLayout.swift; path = Sources/MaterialCollectionViewLayout.swift; sourceTree = "<group>"; };
+		ECC33C16C60366942D74C7047BF01E4C /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		ED5C5F05FEAD5D25728E0EFBA2DCDA05 /* Pods-firebase-user-signup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-firebase-user-signup.modulemap"; sourceTree = "<group>"; };
+		F02F86FEAE1B1CA83E42C0B9C9A374FB /* Material+UIImage+Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Material+UIImage+Color.swift"; path = "Sources/Material+UIImage+Color.swift"; sourceTree = "<group>"; };
+		F4DF0A873659CA7845618E1A53BC4443 /* MaterialGravity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialGravity.swift; path = Sources/MaterialGravity.swift; sourceTree = "<group>"; };
+		F6C3547D4C5001B35A6DFBA870BB8AEA /* ImageCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCardView.swift; path = Sources/ImageCardView.swift; sourceTree = "<group>"; };
+		FB6998EF2FEB9D2EEF1F2F3940FB6C99 /* SearchBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SearchBarViewController.swift; path = Sources/SearchBarViewController.swift; sourceTree = "<group>"; };
+		FCB5DBB96C0C9F5FBC286AF7D149B99B /* MaterialView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialView.swift; path = Sources/MaterialView.swift; sourceTree = "<group>"; };
+		FFC36FD5330FEE88855481794E1BEB58 /* FirebaseApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FirebaseApp.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AF99D7603C70AF10FD6D22479891BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67AC0FD4762630B14321707DFDEBA546 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E10F383DCD59079712A57B50DCF88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FBB5B462A14E8ACC9B340227DE4BE1 /* CFNetwork.framework in Frameworks */,
+				4B0EFAAA29109D9A705A27EFFA10FAE2 /* Foundation.framework in Frameworks */,
+				1C04A7CD5B70C4561F6D98C882731C65 /* Security.framework in Frameworks */,
+				E1A883FEBDEED9B85D90D6BE2080F218 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23661F701853A893451976A927EB696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5EA7E22FC631CC0EBDEB551B1376B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C9CCE6EBC138F74BDF72CF0B03E91D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE823A4F64EEE094D7BD76B3BA63AC6 /* Firebase.modulemap */,
+				BEE1E679C33D9E60106FD6C0712568AB /* Firebase.xcconfig */,
+				5CBECC2687924B0FD7D65CA716745D31 /* Firebase-dummy.m */,
+				7AC5C25A677821872ADCAD78F01ABDC3 /* Firebase-prefix.pch */,
+				1DB7C64C62024B3C5AC04053C37E0195 /* Firebase-umbrella.h */,
+				AC05D67D3ED3B33BECD9E1BB8AFC10FF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Firebase";
+			sourceTree = "<group>";
+		};
+		13DCE9168AD22A2FCF19F8908122DAB1 /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				DF7904A75B65A9494B26C0FFF729EF8D /* CapturePreviewView.swift */,
+				73C99E24CA72A3FEB0A67A448A9FE142 /* CaptureSession.swift */,
+				54B3C81B7539918BB6B648EB6EB9A912 /* CaptureView.swift */,
+				72BF3D811AFBF744BA1CBC7AF41EC397 /* CardView.swift */,
+				7B305FB1D88813F3A1C2B5C996746E34 /* ControlView.swift */,
+				69975409C1C552A335D572372A658E27 /* FabButton.swift */,
+				D4085CE2C07683937F6BE367CC94943E /* FlatButton.swift */,
+				17BFFC645C6C10124EC577C29C7756B9 /* Grid.swift */,
+				F6C3547D4C5001B35A6DFBA870BB8AEA /* ImageCardView.swift */,
+				0F0EB6A95546AE4A7BA1A7A008DCF426 /* Material+Obj-C.swift */,
+				4ADD561246E365360326D4ABB2FF73D8 /* Material+String.swift */,
+				A0956089D07E81DF8FEA7AFE1CA7A72A /* Material+UIFont.swift */,
+				3ECC715C7191F8C42A0D3B384308887C /* Material+UIImage.swift */,
+				28ED3366B52EBCC01CC4D953516935C0 /* Material+UIImage+Blank.swift */,
+				F02F86FEAE1B1CA83E42C0B9C9A374FB /* Material+UIImage+Color.swift */,
+				72B326BD32C53DB2E1C598F3CEAF40C0 /* Material+UIImage+Crop.swift */,
+				7D606E7B4A1D90151C8A6E2DF766A233 /* Material+UIImage+Network.swift */,
+				979328210F06302D7FCB838FB7BBEBB9 /* Material+UIImage+PhotoLibrary.swift */,
+				51D3F3FA4F1091E4076AB07448F083A5 /* Material+UIImage+Resize.swift */,
+				3C20BD57E9C7B1858D3B8EF6136F0454 /* Material+UIImage+Size.swift */,
+				8C9B53118FF9C18BABF91B6A644050EB /* MaterialAnimation.swift */,
+				1422F878080E1865A13F364295EF98A6 /* MaterialBasicAnimation.swift */,
+				98F0E8F7C78A5F48051B5890655E0EC9 /* MaterialBorder.swift */,
+				891190A96FD71E470B27C544EBC18824 /* MaterialButton.swift */,
+				16089419A15391044E85DBF148A5A949 /* MaterialCollectionView.swift */,
+				353453E71E96686603D9E53C83D5E415 /* MaterialCollectionViewCell.swift */,
+				E1FF5DB4A01ECCA29CCCFD314807F73A /* MaterialCollectionViewDataSource.swift */,
+				A9F8998500A6B7C3FB135331614A50E1 /* MaterialCollectionViewDelegate.swift */,
+				E7934EF3E0EA06CDD8D5AFE097805E10 /* MaterialCollectionViewLayout.swift */,
+				3A819803E569A40D42440C6969AF9CE2 /* MaterialColor.swift */,
+				2865D42BB02189C212ACE8C88260E9F2 /* MaterialDataSourceItem.swift */,
+				325573A8227A8330E40E8180B2C6F6FB /* MaterialDepth.swift */,
+				4A49C406DEBC3C740B81EB17789D07E8 /* MaterialDevice.swift */,
+				437D681253703C761FBB088CD85ABBBA /* MaterialEdgeInset.swift */,
+				495A9C9B19243F4140237DB0F1D3A68E /* MaterialFont.swift */,
+				F4DF0A873659CA7845618E1A53BC4443 /* MaterialGravity.swift */,
+				4A23CF283A25576DDAF62F3C594D29D6 /* MaterialIcon.swift */,
+				48FFDA031E12A04D6BE68813DCE42921 /* MaterialKeyframeAnimation.swift */,
+				87BA5AA868F5F4760806DFB393B44F30 /* MaterialLabel.swift */,
+				0AA7919C480AC277E0DAB77285284FD0 /* MaterialLayer.swift */,
+				29184CFC9ADC5081307B7EE568253691 /* MaterialLayout.swift */,
+				41597C6CB7F961555ED021B434DB23DE /* MaterialPulseCollectionViewCell.swift */,
+				69249279FC5EB0D2F1257F0CB6879403 /* MaterialPulseView.swift */,
+				032CC987BC0E15533F0B678643E4291D /* MaterialRadius.swift */,
+				30C0140940708E4A4BA9385839C54BB2 /* MaterialShape.swift */,
+				C6F1E9BBB53872C56CC392A50DBAB0C0 /* MaterialSpacing.swift */,
+				6174770DCE7BC7C6CC78A2044D60F13B /* MaterialSwitch.swift */,
+				86150A88542F5599BF3472903A3152C8 /* MaterialTableViewCell.swift */,
+				C936CDEB050FC94F60B6297A8958F452 /* MaterialTextLayer.swift */,
+				665FB1A903744ABCA07B6F0052FB3BD1 /* MaterialTransitionAnimation.swift */,
+				FCB5DBB96C0C9F5FBC286AF7D149B99B /* MaterialView.swift */,
+				765711536A5FE778849065EB82AEFB85 /* Menu.swift */,
+				DFE720A15907512587184639E3E10056 /* MenuView.swift */,
+				41FF9B579B272A96E148DC0941590495 /* MenuViewController.swift */,
+				86A3012C48C70BC2D19F6D924749EA05 /* NavigationBar.swift */,
+				5293807C7D19B9535A48851A0CCFD045 /* NavigationBarView.swift */,
+				99EAAB71B4738FF20BEA9C220143D6C2 /* NavigationBarViewController.swift */,
+				4CD973EA35BC0A04D0072F865FD300DF /* NavigationController.swift */,
+				91F13A5A760C7FA3234741A3C87AF104 /* RaisedButton.swift */,
+				716A4D1C1CD6A0D4762985D4F81FB232 /* RobotoFont.swift */,
+				DD3657739D81347AD3A21B1B29FFD4DB /* SearchBarView.swift */,
+				FB6998EF2FEB9D2EEF1F2F3940FB6C99 /* SearchBarViewController.swift */,
+				8A7F8D581CB4CD397DBBED6B19A56A70 /* SideNavigationViewController.swift */,
+				12E4FB4E7B681AF026B2682C0C212195 /* StatusBarView.swift */,
+				3DF6ADB7EFB7B99C194DBB5F38D21A10 /* StatusBarViewController.swift */,
+				4BD688CBA7F5A0B63D4E5CC515DCF66C /* Text.swift */,
+				399FC95A8EC9A3EB80F552D990F5EB19 /* TextField.swift */,
+				20F01B50EE8305F20061FB4F72106810 /* TextStorage.swift */,
+				545E588965171F3003A761EE82A1A262 /* TextView.swift */,
+				4D92F8856A258AEDE8B5236F0CC2F64F /* Support Files */,
+			);
+			path = Material;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843A690C4A272ACCFA5202DC4499C74E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16182BB40FE7C18DE8B040B8F4289E8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BB31CD0B17C090393EDBE45A3AD565D /* Firebase.framework */,
+				36E16148903F300342FA186D8F68735B /* Material.framework */,
+				D2D45EE85D788B491438B617B7BEF749 /* Pods_firebase_user_signup.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CBE42B5CD2B77D87F64FF92B2F788B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7000C72B03CFA2D65FDAE2E98DEE6E51 /* Firebase */,
+				13DCE9168AD22A2FCF19F8908122DAB1 /* Material */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D92F8856A258AEDE8B5236F0CC2F64F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FB9C2050646CE094CAE3162B23B990B /* Info.plist */,
+				A5E5E4EDC9515F090BBAE116099BEE01 /* Material.modulemap */,
+				CF4D509A0D435465C199FF9386EF4979 /* Material.xcconfig */,
+				09CA69224AC18BB3D228F77692C6910E /* Material-dummy.m */,
+				847D4243B2128C44BAC39B5E6C2DD3BC /* Material-prefix.pch */,
+				59291043C0FE5D78672385AADC44DF2B /* Material-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Material";
+			sourceTree = "<group>";
+		};
+		7000C72B03CFA2D65FDAE2E98DEE6E51 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				0307D2A86B6780D5D6DBFA34E7018D80 /* Empty.m */,
+				710E6B17898707B66C34568E23A783E2 /* FAuthData.h */,
+				C683CDB29B98CA6A6DDE090FEA1E453D /* FAuthType.h */,
+				AC254F2905E74EA7606EA89B872F0427 /* FConfig.h */,
+				5E4402F2EA9206E546E5F756789F6A87 /* FDataSnapshot.h */,
+				C61D0C56412F9D2F04B16E74A7690834 /* FEventType.h */,
+				ECC33C16C60366942D74C7047BF01E4C /* Firebase.h */,
+				FFC36FD5330FEE88855481794E1BEB58 /* FirebaseApp.h */,
+				925871CF8E3325706CCFF0A0FFCA1704 /* FirebaseServerValue.h */,
+				DCFF96AE46394467EE472BFBC50930E3 /* FMutableData.h */,
+				B2091ED8B3C3A5A9965436035FB83213 /* FQuery.h */,
+				D249EBB04E43A433CCEABA5E178A17E7 /* FTransactionResult.h */,
+				862C05B9258200CE9977EF60076CEB34 /* Frameworks */,
+				0C9CCE6EBC138F74BDF72CF0B03E91D8 /* Support Files */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				1CBE42B5CD2B77D87F64FF92B2F788B7 /* Pods */,
+				16182BB40FE7C18DE8B040B8F4289E8B /* Products */,
+				9F6D4FF6B31EE386AFCC6C94F4148170 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		843A690C4A272ACCFA5202DC4499C74E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				60F85758B54CB0D843A3E97DFFB2F21F /* CFNetwork.framework */,
+				77C49D928448B31FB9A7D5AE5C8D6C4E /* Foundation.framework */,
+				C6204446BD9150A17B12E81B4A6F9CA8 /* Security.framework */,
+				6166BE40C18BC6BF0EED92CAB212EC33 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		862C05B9258200CE9977EF60076CEB34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1913199D9DD1DF0E6321DF58875314C9 /* libFirebaseStatic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F6D4FF6B31EE386AFCC6C94F4148170 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAD7F8BBD31611AF212D4674B77DE707 /* Pods-firebase-user-signup */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BAD7F8BBD31611AF212D4674B77DE707 /* Pods-firebase-user-signup */ = {
+			isa = PBXGroup;
+			children = (
+				E01286DED64596FFB4B228F60945448C /* Info.plist */,
+				ED5C5F05FEAD5D25728E0EFBA2DCDA05 /* Pods-firebase-user-signup.modulemap */,
+				367A63F1CDDC591FF2D9CDC599DF2134 /* Pods-firebase-user-signup-acknowledgements.markdown */,
+				3C1DF32513E8DB55F14B12BBEAB894B1 /* Pods-firebase-user-signup-acknowledgements.plist */,
+				437AEF16D199584A1B30E09D1FAC2A17 /* Pods-firebase-user-signup-dummy.m */,
+				35757E7CF82180AEE6391CCC14A506B2 /* Pods-firebase-user-signup-frameworks.sh */,
+				726A17439786BC6DEDC72C56181646EE /* Pods-firebase-user-signup-resources.sh */,
+				42B731830AA019EAF2AC31C2714C8518 /* Pods-firebase-user-signup-umbrella.h */,
+				04CC7EF3EF6A88B19BB7633D812AA397 /* Pods-firebase-user-signup.debug.xcconfig */,
+				01F426F3AEC87BD477A639A8A07728C3 /* Pods-firebase-user-signup.release.xcconfig */,
+			);
+			name = "Pods-firebase-user-signup";
+			path = "Target Support Files/Pods-firebase-user-signup";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D76C94F098D25079A99DC367F176758 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248C79D1F018F41FA912DB57F3EF363E /* Pods-firebase-user-signup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FDCAAB615C287D16BF7F1F2AA978246 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23FCF31260D47CEC1494A292DAA1A1E /* FAuthData.h in Headers */,
+				1D925BB011B04DDED982C7946571A67A /* FAuthType.h in Headers */,
+				E60FA42EEC3ECC48701DB55986D25D69 /* FConfig.h in Headers */,
+				E8B534D15D2B25919ACD898217266891 /* FDataSnapshot.h in Headers */,
+				239B10F388840841389B7F09648735B1 /* FEventType.h in Headers */,
+				60F9139BDD38565B78214C4FC5F5729D /* Firebase-umbrella.h in Headers */,
+				1C3EF85CD30E6FF2E51471BD5B3CEB29 /* Firebase.h in Headers */,
+				2F1496011DBBB75777645194AAAFE92D /* FirebaseApp.h in Headers */,
+				6646DA26298257396C7FFE141BB84CC3 /* FirebaseServerValue.h in Headers */,
+				DB05A9DD8244D10C28B6915C514AE15F /* FMutableData.h in Headers */,
+				4D75CF0089B20355B17A851513C4A002 /* FQuery.h in Headers */,
+				191DE2EB9A35585AE0A88BA9F833A1F4 /* FTransactionResult.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D2DAE4B83982106DBD32211A922BEAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A8BB3DC3A90908BE77CAFDD02A06E6 /* Material-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D29E8C2A60D3BB04FB162A6A5817AD6 /* Material */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40FEB789B1B5CEFFF5DBBEB4A7094640 /* Build configuration list for PBXNativeTarget "Material" */;
+			buildPhases = (
+				508FFFCE2F823DB6D1170EBD0647318C /* Sources */,
+				2AF99D7603C70AF10FD6D22479891BC0 /* Frameworks */,
+				4D2DAE4B83982106DBD32211A922BEAD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Material;
+			productName = Material;
+			productReference = 36E16148903F300342FA186D8F68735B /* Material.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81547DC74EA65FC13B6BD2F93C3EA496 /* Pods-firebase-user-signup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B62B0201CCBB635DDAD72824BDC42F3 /* Build configuration list for PBXNativeTarget "Pods-firebase-user-signup" */;
+			buildPhases = (
+				08B85F859B11C77B266A482199AA77E0 /* Sources */,
+				D23661F701853A893451976A927EB696 /* Frameworks */,
+				1D76C94F098D25079A99DC367F176758 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E316802DFC659B2A63C31377F8D8F027 /* PBXTargetDependency */,
+				A520B1EAF9B8758865C913930B241B27 /* PBXTargetDependency */,
+			);
+			name = "Pods-firebase-user-signup";
+			productName = "Pods-firebase-user-signup";
+			productReference = D2D45EE85D788B491438B617B7BEF749 /* Pods_firebase_user_signup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7AC9326D819482593FE118E915409D7 /* Firebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B346C14D532324DCD14D0FA1347BC6 /* Build configuration list for PBXNativeTarget "Firebase" */;
+			buildPhases = (
+				46E052D320E3B778B76D8393E0BAFE0F /* Sources */,
+				A7E10F383DCD59079712A57B50DCF88E /* Frameworks */,
+				2FDCAAB615C287D16BF7F1F2AA978246 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Firebase;
+			productName = Firebase;
+			productReference = 9BB31CD0B17C090393EDBE45A3AD565D /* Firebase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 16182BB40FE7C18DE8B040B8F4289E8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7AC9326D819482593FE118E915409D7 /* Firebase */,
+				1D29E8C2A60D3BB04FB162A6A5817AD6 /* Material */,
+				81547DC74EA65FC13B6BD2F93C3EA496 /* Pods-firebase-user-signup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08B85F859B11C77B266A482199AA77E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67B5D166205D1CB900C2F9D8E4DE7D2 /* Pods-firebase-user-signup-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E052D320E3B778B76D8393E0BAFE0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012A7E018F3D34F159894EBD7EACACF9 /* Empty.m in Sources */,
+				1D9D7FF5237C8CC91EF58DC45AC274FB /* Firebase-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		508FFFCE2F823DB6D1170EBD0647318C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18928F8C7B6436EF7561B38F39356774 /* CapturePreviewView.swift in Sources */,
+				141F98E84B6BAAF789F458744C32491E /* CaptureSession.swift in Sources */,
+				E391644D82FD6AFAE43A9B1051F9E19E /* CaptureView.swift in Sources */,
+				CA33C682190D246FD0972E184176859B /* CardView.swift in Sources */,
+				F9FCBA6D9B41834C0961E68758F916D4 /* ControlView.swift in Sources */,
+				09C82839354603A46715889A1A478152 /* FabButton.swift in Sources */,
+				9AA3B741C267B4102A3ABB6A1DFD53CD /* FlatButton.swift in Sources */,
+				B8A77897941B61040653DC8DDE3C0FE2 /* Grid.swift in Sources */,
+				8ED5697FD5A561B4E70A0DCBC4A083B3 /* ImageCardView.swift in Sources */,
+				EC70AB4189691658A1A9EE080B34CBC9 /* Material+Obj-C.swift in Sources */,
+				B160DFC3D99A07CBC4D81453DB449914 /* Material+String.swift in Sources */,
+				48D9D7A9C3C4A472CF75044B793C90DC /* Material+UIFont.swift in Sources */,
+				1F95E4E11EE9C69E0B8FABA9F46F017E /* Material+UIImage+Blank.swift in Sources */,
+				20A5958F2B94D6DE18B898ABF90558E2 /* Material+UIImage+Color.swift in Sources */,
+				31A1BB80CE5181F096C2D7FA9F160470 /* Material+UIImage+Crop.swift in Sources */,
+				B7C014371DAC21DB66BF34F09B510E44 /* Material+UIImage+Network.swift in Sources */,
+				141732172A32A45D318CE1BD592F1DF5 /* Material+UIImage+PhotoLibrary.swift in Sources */,
+				82F446E59D5AB01A85CAD9369A606A80 /* Material+UIImage+Resize.swift in Sources */,
+				0DDD1FB609C947D9E94DB15B754EAE79 /* Material+UIImage+Size.swift in Sources */,
+				61D8AC55CA230A13D28A28E5A9981DA5 /* Material+UIImage.swift in Sources */,
+				5640BC42AF157E5D6EB51E7EAC59789D /* Material-dummy.m in Sources */,
+				4E4E7B49F9763378C80FF5DE1BE7AC5E /* MaterialAnimation.swift in Sources */,
+				4C0F443171592949160E2B718E598805 /* MaterialBasicAnimation.swift in Sources */,
+				57C503D37014357010AA8D3D04EE133E /* MaterialBorder.swift in Sources */,
+				288835CFF80ADE0010A4E1436D772230 /* MaterialButton.swift in Sources */,
+				2052D8E483B84C043565829345A05C35 /* MaterialCollectionView.swift in Sources */,
+				3912236D63F8ED0D146D5620EBE8F04F /* MaterialCollectionViewCell.swift in Sources */,
+				5105168534F5E1F3E2FBF1F9403D4985 /* MaterialCollectionViewDataSource.swift in Sources */,
+				6330CA0301F6A104CCC80F280E3A530E /* MaterialCollectionViewDelegate.swift in Sources */,
+				92CEEC98DC234AB8DC785D1CD684E1DC /* MaterialCollectionViewLayout.swift in Sources */,
+				FA60259DCE1FF8CE0443CD0C3B896095 /* MaterialColor.swift in Sources */,
+				589F90FD2D61469B4862F331CE0A9C52 /* MaterialDataSourceItem.swift in Sources */,
+				7E307BE02913D982E102CCD2D87E5146 /* MaterialDepth.swift in Sources */,
+				A84FDBDCDC65A131626C281AD146F26B /* MaterialDevice.swift in Sources */,
+				F9F0F91A3396797F21639ED24BF79FC0 /* MaterialEdgeInset.swift in Sources */,
+				434E57E3E1F13E54FD8BA4ADF615C7F0 /* MaterialFont.swift in Sources */,
+				FD7969742F6118D79D56A64C9732962B /* MaterialGravity.swift in Sources */,
+				F0055E2044BB382BA4C28108BD8AFA54 /* MaterialIcon.swift in Sources */,
+				60485CFD4EEF7EF79762C11C9FCA94F2 /* MaterialKeyframeAnimation.swift in Sources */,
+				5712A85595BABB1875CCB085B727ECE8 /* MaterialLabel.swift in Sources */,
+				29043037B7733D59876B3CFA6AF64828 /* MaterialLayer.swift in Sources */,
+				909CA8BACF7F797BCF0739A32C5C0397 /* MaterialLayout.swift in Sources */,
+				16F77D0E7CF1D6A7471F4DF2BC936834 /* MaterialPulseCollectionViewCell.swift in Sources */,
+				F53345242A0FC676A5701FE5D3F96CA5 /* MaterialPulseView.swift in Sources */,
+				94C79427FE2BAB99905E324F7F2F72D8 /* MaterialRadius.swift in Sources */,
+				58AE7957DF2483B3BA166D094BB97C7A /* MaterialShape.swift in Sources */,
+				C1503F1709994AD487BF6284ADDE1980 /* MaterialSpacing.swift in Sources */,
+				916F2E8AA14F1EBE23540B9181E640E6 /* MaterialSwitch.swift in Sources */,
+				9083EAF89942F376BB2F648317E4E32A /* MaterialTableViewCell.swift in Sources */,
+				EA5F74BFE07679AECA562C28ED113A0B /* MaterialTextLayer.swift in Sources */,
+				1EBE51236C1D219BF2EFE44F968ED877 /* MaterialTransitionAnimation.swift in Sources */,
+				95ED541B3B188F1E97D87053C5CE854E /* MaterialView.swift in Sources */,
+				40E13501D6B82470BAF7378157AE4079 /* Menu.swift in Sources */,
+				036D6070F1C809A1BC6738C52C827D34 /* MenuView.swift in Sources */,
+				27520904753EDA6C0CE81C3D46C9C37F /* MenuViewController.swift in Sources */,
+				5948F868B00843D9BE2915F98A5BB734 /* NavigationBar.swift in Sources */,
+				E75C42D3822280F6AA444F66A3A784B9 /* NavigationBarView.swift in Sources */,
+				3E1CA57169BA2488AB43D07A2B30F152 /* NavigationBarViewController.swift in Sources */,
+				3DDB25D6357DB92F5A34B7D9E8F1667C /* NavigationController.swift in Sources */,
+				98006A503DBE114FC9D8F34C6CCA3115 /* RaisedButton.swift in Sources */,
+				F6B6B2779D5C68A8354892F106F7FEA5 /* RobotoFont.swift in Sources */,
+				CDFDFACEF69C93B390A5A29BCD2303BC /* SearchBarView.swift in Sources */,
+				86FA356C8BE8D5779A554D00A298DBCB /* SearchBarViewController.swift in Sources */,
+				C33FB72442942769080237385C9051BA /* SideNavigationViewController.swift in Sources */,
+				A638D2F90E0459560D016C146CFB8DAB /* StatusBarView.swift in Sources */,
+				507A88A594FDF11FA402EEFE7A5724F4 /* StatusBarViewController.swift in Sources */,
+				62323DBCAAA85F28765962FEC01AA944 /* Text.swift in Sources */,
+				A208068D65C2A9ED8C2AFD9C6E22F38E /* TextField.swift in Sources */,
+				20F992CC069BD47F212CBBC0C497B0FC /* TextStorage.swift in Sources */,
+				B9F0BAD5FAAAE43361655881A4468ADA /* TextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A520B1EAF9B8758865C913930B241B27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Material;
+			target = 1D29E8C2A60D3BB04FB162A6A5817AD6 /* Material */;
+			targetProxy = 7903D8DAB774F0C7E9A1067BEF344DBF /* PBXContainerItemProxy */;
+		};
+		E316802DFC659B2A63C31377F8D8F027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Firebase;
+			target = B7AC9326D819482593FE118E915409D7 /* Firebase */;
+			targetProxy = D958B35A10E8C8E4C1F1E064E0BB9EB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FDE8B97F3CE7A4A91090F09A9782881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4D509A0D435465C199FF9386EF4979 /* Material.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Material/Material-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Material/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Material/Material.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Material;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		628C2422DA58797615468EA5084795F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEE1E679C33D9E60106FD6C0712568AB /* Firebase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Firebase/Firebase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Firebase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Firebase/Firebase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Firebase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B7C340D586D54A6735203C0949F7EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4D509A0D435465C199FF9386EF4979 /* Material.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Material/Material-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Material/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Material/Material.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Material;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		832A35C4D4E6795C70EA25ED98E0183E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEE1E679C33D9E60106FD6C0712568AB /* Firebase.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Firebase/Firebase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Firebase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Firebase/Firebase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Firebase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B105671AAAA6C340AA51E565C0471013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CC7EF3EF6A88B19BB7633D812AA397 /* Pods-firebase-user-signup.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-firebase-user-signup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-firebase-user-signup/Pods-firebase-user-signup.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_firebase_user_signup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E62CD206CFB58C2033B5FB9BA9FA62D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F426F3AEC87BD477A639A8A07728C3 /* Pods-firebase-user-signup.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-firebase-user-signup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-firebase-user-signup/Pods-firebase-user-signup.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_firebase_user_signup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40FEB789B1B5CEFFF5DBBEB4A7094640 /* Build configuration list for PBXNativeTarget "Material" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FDE8B97F3CE7A4A91090F09A9782881 /* Debug */,
+				6B7C340D586D54A6735203C0949F7EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B346C14D532324DCD14D0FA1347BC6 /* Build configuration list for PBXNativeTarget "Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				628C2422DA58797615468EA5084795F2 /* Debug */,
+				832A35C4D4E6795C70EA25ED98E0183E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B62B0201CCBB635DDAD72824BDC42F3 /* Build configuration list for PBXNativeTarget "Pods-firebase-user-signup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B105671AAAA6C340AA51E565C0471013 /* Debug */,
+				E62CD206CFB58C2033B5FB9BA9FA62D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

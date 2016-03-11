@@ -1,0 +1,13 @@
+PODS:
+  - Firebase (2.5.1)
+  - Material (1.36.0)
+
+DEPENDENCIES:
+  - Firebase (>= 2.5.0)
+  - Material
+
+SPEC CHECKSUMS:
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+  Material: 3162fe1199c62599e977f08515389a4380aaf2ba
+
+COCOAPODS: 0.39.0
