@@ -17,30 +17,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QZK-5a-Ms6" customClass="TextField" customModule="Material">
-                                <rect key="frame" x="55" y="33" width="171" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QZK-5a-Ms6" customClass="TextField" customModule="Material">
+                                <rect key="frame" x="215" y="192" width="171" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hBh-8l-3Vz" customClass="TextField" customModule="Material">
-                                <rect key="frame" x="55" y="150" width="171" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NrK-kD-0aN" customClass="TextField" customModule="Material">
+                                <rect key="frame" x="215" y="248" width="171" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="next"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iok-rD-Bgv" customClass="FlatButton" customModule="Material">
-                                <rect key="frame" x="55" y="219" width="171" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hBh-8l-3Vz" customClass="TextField" customModule="Material">
+                                <rect key="frame" x="215" y="309" width="171" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="done" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iok-rD-Bgv" customClass="FlatButton" customModule="Material">
+                                <rect key="frame" x="215" y="378" width="171" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="signupButtonWasTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="76S-Tz-2Py"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NrK-kD-0aN" customClass="TextField" customModule="Material">
-                                <rect key="frame" x="55" y="89" width="171" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hBh-8l-3Vz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="688-KM-9h2"/>
+                            <constraint firstItem="QZK-5a-Ms6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dLA-sq-Oge"/>
+                            <constraint firstItem="NrK-kD-0aN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lOL-Ir-gsU"/>
+                            <constraint firstItem="iok-rD-Bgv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uSg-Qb-dRv"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="emailTextField" destination="NrK-kD-0aN" id="hRr-ra-C5O"/>
@@ -51,7 +57,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="885" y="642"/>
+            <point key="canvasLocation" x="871" y="653"/>
         </scene>
     </scenes>
 </document>

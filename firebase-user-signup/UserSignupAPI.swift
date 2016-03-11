@@ -26,8 +26,6 @@ func createNewUser(email: String, username: String, password: String, success: (
                 ]
                 FirebaseRefManager.myRootRef.childByAppendingPath("/users")
                     .childByAppendingPath(uid).setValue(newUser)
-//                if let userUID = uid { updateUsernameIndex(username, uid: userUID) }
-//                FireBaseRefManager.user = User(email:email, user_name: username, guid: "")
                 success?()
             }
     })
